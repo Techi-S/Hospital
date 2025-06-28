@@ -1,0 +1,365 @@
+
+.Navbaar{
+    height:190px;
+    
+}
+
+.About{
+    
+    height: 70px;
+    text-align: center;
+    align-content: center;
+    /* background-color: rgb(180, 235, 230); */
+    background-color:#31afd4;
+
+}
+.facility{
+    height: 75px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    align-content: center;
+    /* background-color:rgb(180, 235, 230);   */
+}
+.keys{
+    text-decoration: none; 
+    margin-right: 20px;
+
+}
+.hospital{
+    margin-right: 50px;
+    text-decoration: none;
+    border:wheat;
+    
+}
+.Logo{
+    height: 150px;
+    width: 170px;
+    margin-left: 100px;
+  background-image: url(logo1.png);
+  background-size: cover;
+}
+.response{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    border-size: 100%;
+    background-color: #caf0f8;
+
+    
+
+}
+
+.response1{
+    height: 25px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    margin-right: 50px;
+    margin-top: 7px;
+}
+.response1:hover{
+    background-color: rgb(236, 180, 180);
+}
+.background{
+    height: 350px;
+    background-image: url(contact.jpg);
+    background-size: cover;
+    justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+
+}
+/* .slogan{
+    height: 200px;
+    width: 550px;
+    background-color:rgba(252, 252, 246, 0.7) ;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+.searchbar{
+    color: black;
+    height: 120px;
+    width: 900px;
+    margin-bottom:70px;
+    border-radius: 10px;
+    background-color: rgb(255, 255 , 255 , 0.7);
+} */
+.Cases{
+    height: 700px;
+    width: 100%;
+    background-color: red;
+}
+.break{
+    height: 50%;
+    margin-left: 40px;
+}
+.cases{
+   height: 50%;
+   margin-left: 50px;
+   
+}
+.cas{
+    
+}
+.CONTAINER{
+    height: 400px;
+    
+    display: flex;
+    
+}
+.Appointment{
+    width: 750px;
+    height: 400px;
+    /* background-color:rgb(180, 235, 230); */
+    display: flex;
+   
+}
+
+body {
+    /* margin-bottom: px; */
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.search-filter-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.search-box {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filter-dropdown {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.doctor-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.doctor-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.doctor-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-position: top center;
+    object-fit: cover;
+
+}
+
+.doctor-info {
+    margin-top: 10px;
+}
+
+h3 {
+    margin: 10px 0 5px 0;
+}
+
+.position {
+    font-size: 14px;
+    color: #777;
+}
+
+.speciality {
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.experience,
+.fees {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.profile-btn,
+.appointment-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    margin: 5px;
+}
+
+.profile-btn {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.appointment-btn {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.appointment-btn:hover {
+    background-color: #f5c6cb;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+  }
+  
+  .ask-us-section {
+    padding: 40px;
+  }
+  
+  .ask-us-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ask-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .ask-box {
+    flex: 1 1 350px;
+    max-width: 400px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .ask-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .ask-box input {
+    width: 90%;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .accordion-container {
+    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .accordion-container details {
+    border: 1px solid #e4e1ec;
+    border-radius: 8px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .accordion-container summary {
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    list-style: none;
+  }
+  
+  .accordion-container p {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+
+.foot{
+    height: 200px;
+    width: 100%;
+    background-color: #31afd4;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.Logo3{
+    height: 200px;
+    width: 300px;
+    /* background-color:blue; */
+}
+
+.foot-logo{
+    height: 100px;
+    width: 160px;
+    /* background-color: black; */
+    background-image: url(logo1.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+.logo3{ font-style: italic;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.icon{
+    height: 200px;
+    width: 400px;
+    /* background-color: red; */
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;   
+}
+.policy{
+    height: 200px;
+    width: 500px;
+    /* background-color: green; */
+    position: absolute;
+    right: 0px;
+    align-items: center;
+    align-content: center;
+    /* border: 2px solid black; */
+}
+#poly{
+    margin-top: 2px;
+    align-items: center;
+}
